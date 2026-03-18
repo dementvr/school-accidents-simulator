@@ -1,0 +1,37 @@
+# Documentation generation
+
+To automatically generate documentation in the project, the **Doxygen** tool is used.
+
+## Installation
+
+1. Download Doxygen from the official website:
+https://www.doxygen.nl/download.html
+
+2. Install the program on the system.
+
+## Documentation generation
+
+1. Run **Doxygen GUI**.
+2. Specify the project directory:
+D:/GIT/School accidents simulator
+3. In the Source code directory field, specify the folder:
+Assets
+4. In the Mode tab, select:
+- Documented entities only
+- Optimize for Java or C# output
+5. In the Output tab, enable:
+- HTML
+- With navigation panel
+- With search function
+6. In the Diagrams tab, select:
+- Use built-in class diagram generator
+
+After configuring, go to the **Run** tab and click the **Run doxygen** button.
+
+## Result
+
+After generation, the documentation will be available in the folder:
+
+docs/html/index.html
+
+The **index.html** file opens in the browser and contains complete documentation for the project's classes, methods, and interfaces.
