@@ -1,10 +1,9 @@
-# School Accidents Simulator 🏫⚠️
-
+# School Accidents Simulator
 **School Accidents Simulator** is an interactive simulation project built with Unity. It is designed to model, visualize, and analyze potential safety hazards and emergency scenarios within a school environment. The project serves as an educational tool to train users on safety protocols and emergency response.
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This simulator provides a virtual environment where users can navigate school premises and interact with various "accident" scenarios. It aims to bridge the gap between theoretical safety knowledge and practical decision-making.
 
@@ -16,7 +15,7 @@ This simulator provides a virtual environment where users can navigate school pr
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project follows the standard Unity directory structure:
 
@@ -28,7 +27,7 @@ The project follows the standard Unity directory structure:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run the project locally, follow these steps:
 
@@ -44,7 +43,7 @@ To run the project locally, follow these steps:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology | Use Case |
 | :--- | :--- |
@@ -54,7 +53,41 @@ To run the project locally, follow these steps:
 
 ---
 
-## 🤝 Contributing
+## Code Documentation Guidelines
+
+To ensure the project remains maintainable and understandable for all contributors, the project follows a consistent code documentation standard.
+
+Documentation Standard
+This project uses C# XML Documentation Comments (///) to document scripts, classes, and methods.
+Documentation allows automatic generation of technical documentation and improves code readability for other developers.
+
+---
+
+## Required XML Tags
+
+When writing documentation, use the following tags:
+Tag -> Purpose
+<summary> -> Short description of the class or method
+<param> -> Description of method parameters
+<returns> -> Description of returned value (if applicable)
+<remarks> -> Additional explanation about behavior or logic
+
+---
+
+## Documentation Rules
+
+When contributing new code:
+
+- Every script must contain a <summary> description
+- Public methods must document parameters and purpose
+- Complex logic should include additional remarks
+- Documentation must be updated whenever code behavior changes
+
+Following these rules ensures consistent documentation across the project and makes it easier for new developers to understand the system.
+
+---
+
+## Contributing
 
 Contributions are welcome! If you want to add new scenarios or improve the physics:
 1.  **Fork** the project.
@@ -66,4 +99,4 @@ Contributions are welcome! If you want to add new scenarios or improve the physi
 ---
 
 **Developer:** [dementvr](https://github.com/dementvr)  
-**Status:** 🛠️ Work in Progress (Active Development)
+**Status:** Work in Progress (Active Development)
