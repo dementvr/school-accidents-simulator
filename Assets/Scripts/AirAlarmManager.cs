@@ -1,6 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages the air alarm simulation logic in the game.
+/// </summary>
+/// <remarks>
+/// This class controls the alarm effects, displays UI panels with choices,
+/// processes the player's answer, and handles the transition to the next
+/// area of the simulation.
+/// </remarks>
 public class AirAlarmManager : MonoBehaviour
 {
     [Header("Components")]
@@ -18,11 +26,15 @@ public class AirAlarmManager : MonoBehaviour
     
     //show btn start simulation
     
-    //call simulations
+    /// <summary>
+    /// Starts the air alarm simulation.
+    /// </summary>
+    /// <remarks>
+    /// Disables the start button, triggers alarm visual effects,
+    /// and displays the panel with answer choices.
+    /// </remarks>
     public void StartAirAlarm()
     {
-        Debug.Log("МЕТОД StartAirAlarm ЗАПУЩЕНО!");
-        
         StartSimulationsButton.SetActive(false); 
         
         if (lightAnimator != null) 
@@ -58,6 +70,12 @@ public class AirAlarmManager : MonoBehaviour
         //if (alarmAudio != null) alarmAudio.Stop();
     }
     
+    /// <summary>
+    /// Teleports the player to the hallway position.
+    /// </summary>
+    /// <remarks>
+    /// The player's position and rotation are set to the target hallway point.
+    /// </remarks>
     private void TeleportPlayer()
     {
         playerTransform.position = hallwayPoint.position;
